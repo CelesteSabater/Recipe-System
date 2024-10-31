@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Packages/Celeste/Tools/RecipeTree/UIBuilder/RecipeTreeEditor.uss?fileID=7433441132597879392&amp;guid=504cfba1923e9934c91c73fd7eb3f4bd&amp;type=3#RecipeTreeEditor" />
+    <uie:Toolbar>
+        <uie:ToolbarMenu tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" text="Assets" />
+    </uie:Toolbar>
+    <Celeste.Tools.RecipeTree.SplitView fixed-pane-initial-dimension="228">
+        <ui:VisualElement name="left-panel" style="flex-grow: 1;">
+            <ui:VisualElement name="inspector-container" style="flex-grow: 1; flex-shrink: 0;">
+                <ui:Label tabindex="-1" text="Inspector" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" style="-unity-text-outline-color: rgb(255, 255, 255); background-color: rgb(37, 37, 37); color: rgb(255, 255, 255); -unity-text-align: upper-left; border-left-color: rgb(255, 0, 255); border-right-color: rgb(255, 0, 255); border-top-color: rgb(255, 0, 255); border-bottom-color: rgb(255, 0, 255);" />
+                <Celeste.Tools.RecipeTree.RecipeInspectorView style="height: 100%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="right-panel" style="flex-grow: 1;">
+            <ui:VisualElement style="flex-grow: 1; flex-shrink: 0;">
+                <ui:Label tabindex="-1" text="TreeView" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" style="-unity-text-outline-color: rgb(255, 255, 255); background-color: rgb(37, 37, 37); color: rgb(255, 255, 255); -unity-text-align: upper-left; border-left-color: rgb(255, 0, 255); border-right-color: rgb(255, 0, 255); border-top-color: rgb(255, 0, 255); border-bottom-color: rgb(255, 0, 255);" />
+                <Celeste.Tools.RecipeTree.RecipeTreeView focusable="true" style="height: 100%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </Celeste.Tools.RecipeTree.SplitView>
+</ui:UXML>
