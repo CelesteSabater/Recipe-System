@@ -25,10 +25,6 @@
   <img src="https://github.com/user-attachments/assets/e8877222-e60f-4d5f-8c33-a082c86dcf27" alt="Reutilization of Data" width="200">
 </div>
 
-## How To Use
-
-* Pending
-
 > GitHub [@CelesteSabater ](https://github.com/CelesteSabater) &nbsp;&middot;&nbsp;
 > itch.io [CeSaba](https://cesaba.itch.io/) &nbsp;&middot;&nbsp;
 > LinkedIn [Celeste Sabater](https://www.linkedin.com/in/celeste-sabater-andrade/) &nbsp;&middot;&nbsp;
